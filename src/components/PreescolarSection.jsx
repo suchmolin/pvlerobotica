@@ -1,9 +1,11 @@
 import { MdPlayCircleOutline } from "react-icons/md";
+import logovertical from "../assets/img/logoVertical.png";
+import spikeessential from "../assets/img/sintitutlo.png";
 
 export default function PreescolarSection() {
     return (
         <section className="w-full flex justify-center monserrat-bold bg-[#e8eef9] bg-[url('/lanfondo.png')] bg-cover bg-center py-12 relative">
-            <img src="/img/logoVertical.png" alt="logo lerobotica" className="absolute top-0 left-[2%] w-[90px] h-auto bg-white rounded-b-[35px]" />
+            <img src={logovertical} alt="logo lerobotica" className="absolute top-0 left-[2%] w-[90px] h-auto bg-white rounded-b-[35px]" />
             <div className="w-full flex flex-col">
                 <div className="flex items-center gap-4 ml-40 mb-7">
                     <h2 className="text-6xl text-[#005aad]">PREESCOLAR</h2>
@@ -24,7 +26,7 @@ export default function PreescolarSection() {
                     <div className="w-4/12 flex items-center justify-center">
                         <div className="w-full flex flex-col items-center justify-center">
                             <div className="w-full flex justify-end ">
-                                <img src="/img/sintitutlo.png" alt="spike essential" className=" absolute right-0 top-32 w-5/12 h-auto object-contain object-right" />
+                                <img src={spikeessential} alt="spike essential" className=" absolute right-0 top-32 w-5/12 h-auto object-contain object-right" />
                             </div>
                             <button className="bg-[#f7b503] py-2 lg:py-4 px-5 lg:px-10 text-xl lg:text-3xl text-white text-center rounded-4xl mt-60 lg:mt-72 xl:mt-96 -ml-20">¡INSCRÍBETE AHORA!</button>
                         </div>

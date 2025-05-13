@@ -1,28 +1,34 @@
+import imgdata1 from "../assets/img/qwetítulo.png";
+import imgdata2 from "../assets/img/qwetítulo.png";
+import imgdata3 from "../assets/img/qwetítulo.png";
+import imgdata4 from "../assets/img/qwetítulo.png";
+import imgdata5 from "../assets/img/qwetítulo.png";
+
 export default function DifSection() {
     const data = [
         {
             id: "metodologia-steam",
-            icon: "/img/qwetítulo.png",
+            icon: imgdata1,
             titulo: "METODOLOGÍA STEAM"
         },
         {
             id: "conocimientos-de-matematicas",
-            icon: "/img/qwetítulo.png",
+             icon: imgdata2,
             titulo: "CONOCIMIENTOS DE MATEMÁTICAS"
         },
         {
             id: "habilidades-socioemocionales",
-            icon: "/img/qwetítulo.png",
+             icon: imgdata3,
             titulo: "HABILIDADES SOCIOEMOCIONALES"
         },
         {
             id: "trabajo-en-equipo",
-            icon: "/img/qwetítulo.png",
+             icon: imgdata4,
             titulo: "TRABAJO EN EQUIPO"
         },
         {
             id: "conocimientos-de-lectoescritura",
-            icon: "/img/qwetítulo.png",
+             icon: imgdata5,
             titulo: "CONOCIMIENTOS EN LECTOESCRITURA"
         },
     ]

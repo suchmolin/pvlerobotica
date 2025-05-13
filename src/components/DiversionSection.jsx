@@ -1,38 +1,45 @@
+import imgdata1 from "../assets/img/qweqwe.png";
+import imgdata2 from "../assets/img/qweqwe.png";
+import imgdata3 from "../assets/img/qweqwe.png";
+import imgdata4 from "../assets/img/qweqwe.png";
+import imgdata5 from "../assets/img/qweqwe.png";
+import imgdata6 from "../assets/img/qweqwe.png";
+
 export default function DiversionSection() {
     const data = [
         {
             id: "2-o-4-semanas-de-actividades",
-            icon: "/img/qweqwe.png",
+            icon: imgdata1,
             titulo: "2 O 4 SEMANAS DE ACTIVIDADES"
         },
         {
             id: "30-horas-de-diversion",
-            icon: "/img/qweqwe.png",
+            icon: imgdata2,
             titulo: "30 HORAS DE DIVERSIÓN"
         },
         {
             id: "grupos-reducidos",
-            icon: "/img/qweqwe.png",
+            icon: imgdata3,
             titulo: "GRUPOS REDUCIDOS"
         },
         {
             id: "espacios-tematicos",
-            icon: "/img/qweqwe.png",
+            icon: imgdata4,
             titulo: "ESPACIOS TEMÁTICOS"
         },
         {
             id: "facil-acceso",
-            icon: "/img/qweqwe.png",
+            icon: imgdata5,
             titulo: "FÁCIL ACCESO"
         },
         {
             id: "profesores-capacitados",
-            icon: "/img/qweqwe.png",
+            icon: imgdata6,
             titulo: "PROFESORES CAPACITADOS"
         },
     ]
     return(
-        <section className="w-full flex justify-center bg-[url('/img/lanfondo.png')] py-14">
+        <section className="w-full flex justify-center bg-[url('img/lanfondo.png')] py-14">
             <div className="w-[290px] xs:w-[370px] sm:w-[630px] md:w-[760px] lg:w-[1030px] xl:w-[1250px] flex flex-col items-center">
                 <div className="flex flex-col gap-5 mb-14">
                     <h2 className="text-4xl lg:text-5xl monserrat-bold text-white flex gap-4 items-center justify-center">
