@@ -1,7 +1,6 @@
 import './App.css'
 import CincoPilares from './components/CincoPilares'
 import DifSection from './components/DifSection'
-import DifSectionCuatro from './components/DifSectionCuatro'
 import DifSectionDos from './components/DifSectionDos'
 import DifSectionTres from './components/DifSectionTres'
 import DiversionSection from './components/DiversionSection'
@@ -11,8 +10,6 @@ import Navbar from './components/Navbar'
 import PreescolarSection from './components/PreescolarSection'
 import PrimariaAltaSection from './components/PrimariaAltaSection'
 import PrimariaBajaSection from './components/PrimariaBajaSection'
-import SecundariaSection from './components/SecundariaSection'
-import SistemaLEGO from './components/SistemaLEGO'
 
 function App() {
   return (
@@ -28,9 +25,7 @@ function App() {
       <PrimariaAltaSection />
       <DifSectionTres />
       <DosSemanas />
-      <SecundariaSection />
-      <DifSectionCuatro />
-      <SistemaLEGO />
+      <PrimariaBajaSection />
     </main>
   )
 }
