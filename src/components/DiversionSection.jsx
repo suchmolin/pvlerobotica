@@ -4,7 +4,7 @@ import imgdata3 from '../assets/img/grupos.png'
 import imgdata4 from '../assets/img/tematicos.png'
 import imgdata5 from '../assets/img/acceso.png'
 import imgdata6 from '../assets/img/profesores.png'
-import fondoLego from '../assets/img/lanfondo.png'
+import legobg from '../assets/img/LEGObg.png'
 
 export default function DiversionSection() {
   const data = [
@@ -41,7 +41,11 @@ export default function DiversionSection() {
   ]
   return (
     <section
-      style={{ background: `url(${fondoLego})` }}
+      style={{
+        background: `url(${legobg})`,
+        backgroundColor: '#fff',
+        backgroundSize: '33px',
+      }}
       className="w-full flex justify-center bg-[url('img/lanfondo.png')] py-14"
     >
       <div className="w-[290px] xs:w-[370px] sm:w-[630px] md:w-[760px] lg:w-[1030px] xl:w-[1250px] flex flex-col items-center">

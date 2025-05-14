@@ -4,7 +4,7 @@ import imgdata3 from '../assets/img/CONSTRUYE.png'
 import imgdata4 from '../assets/img/Sin título-6.png'
 import imgdata5 from '../assets/img/COMPETIR.png'
 import logolero from '../assets/img/logo.png'
-import fondoLego from '../assets/img/lanfondo.png'
+import legobg from '../assets/img/LEGObg.png'
 
 export default function CincoPilares() {
   const data = [
@@ -36,7 +36,11 @@ export default function CincoPilares() {
   ]
   return (
     <section
-      style={{ background: `url(${fondoLego})` }}
+      style={{
+        background: `url(${legobg})`,
+        backgroundColor: '#fff',
+        backgroundSize: '33px',
+      }}
       className="w-full flex justify-center py-14 monserrat-bold "
     >
       <div className="w-[290px] xs:w-[370px] sm:w-[630px] md:w-[760px] lg:w-[1030px] xl:w-[1250px] flex justify-center items-center">

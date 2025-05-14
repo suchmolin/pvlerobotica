@@ -9,7 +9,7 @@ export default function PreescolarSection() {
       style={{
         background: `url(${legobg})`,
         backgroundColor: '#e8eef9',
-        backgroundSize: '30px',
+        backgroundSize: '33px',
       }}
       className="w-full flex justify-center monserrat-bold bg-cover bg-center py-12 relative"
     >
@@ -18,7 +18,7 @@ export default function PreescolarSection() {
         alt="logo lerobotica"
         className="absolute top-0 left-[2%] w-[90px] h-auto bg-white rounded-b-[35px]"
       />
-      <div className="w-full flex flex-col">
+      <div className="w-full flex flex-col z-10">
         <div className="flex items-center gap-4 ml-40 mb-7">
           <h2 className="text-6xl text-[#005aad]">PREESCOLAR</h2>
           <h3 className="text-[#dd1f89] text-3xl">3 A 5 AÑOS</h3>

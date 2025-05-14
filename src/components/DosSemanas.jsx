@@ -1,4 +1,4 @@
-import fondoLego from '../assets/img/lanfondo.png'
+import legobg from '../assets/img/LEGObg.png'
 
 export default function DosSemanas() {
   const data = [
@@ -37,35 +37,46 @@ export default function DosSemanas() {
   ]
   return (
     <section
-      style={{ background: `url(${fondoLego})` }}
+      style={{
+        background: `url(${legobg})`,
+        backgroundColor: '#fff',
+        backgroundSize: '33px',
+      }}
       className="w-full flex flex-col gap-4 items-center py-10 monserrat-bold"
     >
-      <h2 className="w-full text-4xl text-center  text-[#323232]">
+      <h2 className="w-full text-3xl lg:text-4xl text-center  text-[#323232]">
         2 SEMANAS DE PURA DIVERSIÓN
       </h2>
       <div className="w-[290px] xs:w-[370px] sm:w-[630px] md:w-[760px] lg:w-[1030px] xl:w-[1250px] py-5 flex flex-wrap gap-5 justify-center">
-        {data.map((item) => (
-          <div
-            key={item.id}
-            className="w-5/12 h-[80px] bg-[#e4effa] rounded-3xl overflow-hidden flex"
-          >
+        {data.map((item) => {
+          const { id, etapa, etapa2, fechaInicio, fechaFin, color } = item
+          return (
             <div
-              style={{ background: item.color }}
-              className="w-4/12 h-full rounded-r-3xl text-white text-3xl flex items-center justify-center"
+              key={id}
+              className="w-5/12 h-[80px] bg-[#e4effa] rounded-3xl overflow-hidden flex"
             >
-              1<span className="text-lg -mt-3 mr-2">era</span> ETAPA
+              <div
+                style={{ background: color }}
+                className="w-5/12 lg:w-4/12 h-full rounded-r-3xl text-white text-lg lg:text-2xl xl:text-3xl flex items-center justify-center"
+              >
+                {etapa}
+                <span className="text-xs lg:text-sm xl:text-lg -mt-3 mr-2">
+                  {etapa2}
+                </span>{' '}
+                ETAPA
+              </div>
+              <div className="w-8/12 text-[#474748] h-full flex flex-col items-center justify-center text-center leading-6 text-lg lg:text-2xl">
+                <p>
+                  {fechaInicio}
+                  <br />
+                  {fechaFin}
+                </p>
+              </div>
             </div>
-            <div className="w-8/12 text-[#474748] h-full flex flex-col items-center justify-center text-center leading-6 text-2xl">
-              <p>
-                21 DE JULIO
-                <br />
-                AL 01 DE AGOSTO
-              </p>
-            </div>
-          </div>
-        ))}
+          )
+        })}
       </div>
-      <h3 className="w-full text-4xl text-center  text-[#323232]">
+      <h3 className="w-full text-3xl lg:text-4xl text-center  text-[#323232]">
         <span className="text-[#dd1f89]"> HORARIOS:</span> 9:00 AM A 12:00 AM Ó
         2:00 PM A 5:00 PM
       </h3>

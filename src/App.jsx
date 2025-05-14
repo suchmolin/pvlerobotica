@@ -7,12 +7,14 @@ import DifSectionTres from './components/DifSectionTres'
 import DiversionSection from './components/DiversionSection'
 import DosSemanas from './components/DosSemanas'
 import HeaderPV from './components/HeaderPV'
+import InscribeloAhora from './components/InscribeloAhora'
 import Navbar from './components/Navbar'
 import PreescolarSection from './components/PreescolarSection'
 import PrimariaAltaSection from './components/PrimariaAltaSection'
 import PrimariaBajaSection from './components/PrimariaBajaSection'
 import SecundariaSection from './components/SecundariaSection'
 import SistemaLEGO from './components/SistemaLEGO'
+import Testimonios from './components/Testimonios'
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
       <SecundariaSection />
       <DifSectionCuatro />
       <SistemaLEGO />
+      <Testimonios />
+      <InscribeloAhora />
     </main>
   )
 }

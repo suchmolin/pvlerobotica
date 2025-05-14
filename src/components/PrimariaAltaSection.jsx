@@ -1,10 +1,18 @@
 import { MdPlayCircleOutline } from 'react-icons/md'
 import logovertical from '../assets/img/logoVertical.png'
 import spikeprime10 from '../assets/img/spikeprime10.png'
+import legobg from '../assets/img/LEGObg.png'
 
 export default function PrimariaAltaSection() {
   return (
-    <section className="w-full flex justify-center monserrat-bold bg-[#e8eef9] bg-[url('/lanfondo.png')] bg-cover bg-center  relative pt-7 lg:pt-0 pb-7 lg:pb-10">
+    <section
+      style={{
+        background: `url(${legobg})`,
+        backgroundColor: '#e8eef9',
+        backgroundSize: '33px',
+      }}
+      className="w-full flex justify-center monserrat-bold bg-[#e8eef9] bg-[url('/lanfondo.png')] bg-cover bg-center  relative pt-7 lg:pt-0 pb-7 lg:pb-10"
+    >
       <img
         src={logovertical}
         alt="logo lerobotica"

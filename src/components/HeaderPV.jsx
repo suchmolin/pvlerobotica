@@ -1,13 +1,23 @@
 import { MdPlayCircleOutline } from 'react-icons/md'
 import headerimg from '../assets/img/spike-essential.png'
-import fondoLego from '../assets/img/lanfondo.png'
+import legobg from '../assets/img/LEGObg.png'
+import logovertical from '../assets/img/logoVertical.png'
 
 export default function HeaderPV() {
   return (
     <section
-      style={{ background: `url(${fondoLego})` }}
-      className="w-full flex justify-center pt-[100px] pb-12"
+      style={{
+        background: `url(${legobg})`,
+        backgroundColor: '#fff',
+        backgroundSize: '33px',
+      }}
+      className="w-full flex justify-center pt-[100px] pb-12 relative"
     >
+      <img
+        src={logovertical}
+        alt="logo lerobotica"
+        className="absolute top-12 right-[2%] w-[90px] h-auto bg-white rounded-b-[35px]"
+      />
       <div className="w-[290px] xs:w-[370px] sm:w-[630px] md:w-[760px] lg:w-[1030px] xl:w-[1250px] monserrat-bold">
         {/*///TITULO//*/}
         <h1 className="text-center text-7xl text-[#f7b503] ">

@@ -1,10 +1,18 @@
 import { MdPlayCircleOutline } from 'react-icons/md'
 import logovertical from '../assets/img/logoVertical.png'
-import spikeessentialaventura from '../assets/img/spikeessentialaventura.png'
+import mano from '../assets/img/mano.png'
+import legobg from '../assets/img/LEGObg.png'
 
 export default function SecundariaSection() {
   return (
-    <section className="w-full flex justify-center monserrat-bold bg-[#e8eef9] bg-[url('/lanfondo.png')] bg-cover bg-center py-12 relative">
+    <section
+      style={{
+        background: `url(${legobg})`,
+        backgroundColor: '#e8eef9',
+        backgroundSize: '33px',
+      }}
+      className="w-full flex justify-center monserrat-bold bg-[#e8eef9] bg-[url('/lanfondo.png')] bg-cover bg-center py-12 relative"
+    >
       <img
         src={logovertical}
         alt="logo lerobotica"
@@ -12,16 +20,16 @@ export default function SecundariaSection() {
       />
       <div className="w-full flex flex-col">
         <div className="flex justify-center">
-          <div className="w-5/12 flex items-center justify-center px-10 lg:px-20">
+          <div className="w-6/12 flex items-center justify-center">
             <div className="w-full flex flex-col items-center justify-center">
-              <div className="w-full flex justify-end relative">
+              <div className="w-full flex justify-start relative">
                 <img
-                  src={spikeessentialaventura}
+                  src={mano}
                   alt="spike essential"
                   className="object-contain object-right"
                 />
               </div>
-              <button className="bg-[#dd1f89] py-2 lg:py-4 px-5 lg:px-10 text-xl lg:text-2xl xl:text-3xl text-white text-center rounded-4xl  -ml-20">
+              <button className="bg-[#dd1f89] py-2 lg:py-4 px-5 lg:px-10 text-xl lg:text-2xl xl:text-3xl text-white text-center rounded-4xl  -ml-20 -mt-10">
                 ¡INSCRÍBETE AHORA!
               </button>
             </div>
@@ -29,10 +37,10 @@ export default function SecundariaSection() {
           <div className="w-6/12 flex flex-col justify-center">
             <div className="flex items-center gap-4 mb-7">
               <h2 className="text-3xl lg:text-4xl xl:text-5xl text-[#dd1f89] text-nowrap">
-                PRIMARIA BAJA
+                SECUNDARIA
               </h2>
               <h3 className="text-[#00aabc] text-lg lg:text-xl xl:text-2xl  text-nowrap">
-                6 A 8 AÑOS
+                12 A 14 AÑOS
               </h3>
             </div>
             <div className="w-full flex flex-col gap-4 mb-5">
@@ -40,8 +48,8 @@ export default function SecundariaSection() {
                 <MdPlayCircleOutline className="text-8xl text-[#bdc5d4]" />
               </div>
             </div>
-            <h2 className="text-2xl lg:text-3xl xl:text-4xl text-[#005aad]">
-              ¡Creat robots y programarlos <br /> nunca fue tan divertido!
+            <h2 className="text-2xl lg:text-3xl xl:text-5xl text-[#005aad]">
+              ¡Aquí se programa en otro <br /> nivel con Phyton!
             </h2>
           </div>
         </div>

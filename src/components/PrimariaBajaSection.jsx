@@ -1,10 +1,18 @@
 import { MdPlayCircleOutline } from 'react-icons/md'
 import logovertical from '../assets/img/logoVertical.png'
 import spikeessentialaventura from '../assets/img/spikeessentialaventura.png'
+import legobg from '../assets/img/LEGObg.png'
 
 export default function PrimariaBajaSection() {
   return (
-    <section className="w-full flex justify-center monserrat-bold bg-[#e8eef9] bg-[url('/lanfondo.png')] bg-cover bg-center py-12 relative">
+    <section
+      style={{
+        background: `url(${legobg})`,
+        backgroundColor: '#e8eef9',
+        backgroundSize: '33px',
+      }}
+      className="w-full flex justify-center monserrat-bold bg-[url('/lanfondo.png')] bg-cover bg-center py-12 relative"
+    >
       <img
         src={logovertical}
         alt="logo lerobotica"
