@@ -34,21 +34,21 @@ export default function DifSection() {
   ]
   return (
     <section className="w-full flex justify-center bg-[#d21080] py-5">
-      <div className="w-[290px] xs:w-[370px] sm:w-[630px] md:w-[760px] lg:w-[1030px] xl:w-[1250px] flex justify-center ">
-        <div className="w-11/12 flex justify-between">
+      <div className="w-[370px] sm:w-[630px] md:w-[760px] lg:w-[1030px] xl:w-[1250px] flex justify-center">
+        <div className="w-11/12 flex justify-center md:justify-between  flex-wrap md:flex-nowrap gap-y-4 gap-x-7">
           {data.map((item) => (
             <div
               key={item.id}
-              className="w-[130px] lg:w-[150px] xl:w-[180px] flex flex-col "
+              className="w-[200px] md:w-[130px] lg:w-[150px] xl:w-[180px] flex flex-col items-center"
             >
-              <div className="w-full ">
+              <div className="w-8/12 flex justify-center ">
                 <img
                   src={item.icon}
                   alt={item.titulo}
                   className="w-full h-auto"
                 />
               </div>
-              <p className="text-white text-[10px] lg:text-xs xl:text-base text-center monserrat-bold leading-5">
+              <p className="text-white text-lg md:text-[10px] lg:text-xs xl:text-base text-center monserrat-bold leading-5 mt-3">
                 {item.titulo}
               </p>
             </div>

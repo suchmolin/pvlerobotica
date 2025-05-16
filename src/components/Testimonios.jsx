@@ -17,16 +17,18 @@ export default function Testimonios() {
         backgroundColor: '#e8eef9',
         backgroundSize: '33px',
       }}
-      className="w-full flex flex-col items-center monserrat-bold bg-[#e8eef9] bg-[url('/lanfondo.png')] bg-cover bg-center py-12 relative"
+      className="w-full flex flex-col items-center monserrat-bold bg-[#e8eef9] bg-[url('/lanfondo.png')] bg-cover bg-center pb-10 pt-5 sm:py-12 relative"
     >
       <img
         src={logovertical}
         alt="logo lerobotica"
         className="absolute top-0 left-[2%] w-[90px] h-auto bg-white rounded-b-[35px]"
       />
-      <h2 className="text-5xl text-[#005aad]">¡Testimonios que construyen!</h2>
-      <div className="w-[290px] xs:w-[370px] sm:w-[620px] md:w-[760px] lg:w-[1000px] flex gap-5 justify-between mt-10">
-        <div className="w-8/12 flex flex-col items-center justify-center">
+      <h2 className="text-2xl sm:text-5xl text-[#005aad] sm:pt-18 md:pt-0 text-center md:text-start pl-20">
+        ¡Testimonios que construyen!
+      </h2>
+      <div className="w-[330px] sm:w-[620px] md:w-[760px] lg:w-[1000px] flex flex-col md:flex-row gap-5 justify-between mt-10">
+        <div className="w-full md:w-8/12 flex flex-col items-center justify-center">
           {data.map((item) => {
             const sel = vidSelected === item.id
             return (
@@ -46,7 +48,7 @@ export default function Testimonios() {
             )
           })}
         </div>
-        <div className="w-4/12 flex flex-col items-center">
+        <div className="w-full md:w-4/12 flex md:flex-col items-center gap-4 md:gap-0">
           {data.map((item) => {
             const sel = vidSelected !== item.id
             return (

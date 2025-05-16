@@ -41,24 +41,24 @@ export default function CincoPilares() {
         backgroundColor: '#fff',
         backgroundSize: '33px',
       }}
-      className="w-full flex justify-center py-14 monserrat-bold "
+      className="w-full flex justify-center py-10 md:py-14 monserrat-bold "
     >
-      <div className="w-[290px] xs:w-[370px] sm:w-[630px] md:w-[760px] lg:w-[1030px] xl:w-[1250px] flex justify-center items-center">
-        <div className="w-4/12 lg:pr-20 lg:pl-10 xl:pl-0">
+      <div className="w-[370px] sm:w-[630px] md:w-[760px] lg:w-[1030px] xl:w-[1250px] flex flex-col md:flex-row justify-center items-center">
+        <div className="w-10/12 md:w-4/12 lg:pr-20 lg:pl-10 xl:pl-0 flex flex-col items-center md:items-start text-center lg:text-start mb-10 md:mb-0">
           <h3 className="text-base xl:text-lg text-nowrap">
             UNA EXPERIENCIA TECNOLÓGICA <br /> Y DIVERTIDA BASADA EN
           </h3>
-          <h2 className="text-3xl flex flex-col gap-1  text-white">
+          <h2 className="text-3xl flex flex-col gap-1 text-white items-center lg:items-start">
             <span className="bg-[#00aabc] px-5 py-2 w-fit">5 PILARES</span>
             <span className="bg-[#d21080] px-5 py-2 w-fit">FUNDAMENTALES</span>
           </h2>
         </div>
-        <div className="w-8/12 flex flex-col gap-6 items-center">
-          <div className="w-full flex justify-center gap-y-5 flex-wrap">
+        <div className="w-11/12 md:w-8/12 flex flex-col gap-3 sm:gap-6 items-center">
+          <div className="w-full flex justify-center sm:gap-y-5 flex-wrap">
             {data.map((item) => (
               <div
                 key={item.id}
-                className="w-[130px] lg:w-[130px] xl:w-[160px] flex flex-col gap-3"
+                className="w-[220px] sm:w-[130px] lg:w-[130px] xl:w-[160px] flex flex-col sm:gap-3"
               >
                 <div className="w-full px-5">
                   <img
