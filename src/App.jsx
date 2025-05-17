@@ -21,18 +21,18 @@ function App() {
     <main className="w-full montserrat min-h-screen">
       <Navbar />
       <HeaderPV />
+      <DiversionSection />
+      <DosSemanas />
+      <SistemaLEGO />
+      <CincoPilares />
       <PreescolarSection />
       <DifSection />
-      <DiversionSection />
       <PrimariaBajaSection />
       <DifSectionDos />
-      <CincoPilares />
       <PrimariaAltaSection />
       <DifSectionTres />
-      <DosSemanas />
       <SecundariaSection />
       <DifSectionCuatro />
-      <SistemaLEGO />
       <Testimonios />
       <InscribeloAhora />
     </main>

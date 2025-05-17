@@ -43,7 +43,7 @@ export default function DiversionSection() {
     <section
       style={{
         background: `url(${legobg})`,
-        backgroundColor: '#fff',
+        backgroundColor: '#e8eef9',
         backgroundSize: '33px',
       }}
       className="w-full flex justify-center bg-[url('img/lanfondo.png')] py-14"
@@ -65,7 +65,10 @@ export default function DiversionSection() {
             <span className="bg-[#f7b503] px-3 text-lg sm:text-3xl lg:text-4xl h-fit">
               =
             </span>
-            <span className="bg-[#00aabc] py-1 px-3">DIVERSIÓN</span>
+          </h2>
+          <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl monserrat-bold text-white flex flex-col sm:flex-row gap-1 sm:gap-4 items-center justify-center">
+            <span className="bg-[#005aad] py-1 px-3">VACACIONES</span>
+            <span className="bg-[#007a03] py-1 px-3">DIVERTIDAS</span>
           </h2>
         </div>
         <div className="w-full flex justify-center sm:justify-between flex-wrap sm:flex-nowrap gap-y-5">

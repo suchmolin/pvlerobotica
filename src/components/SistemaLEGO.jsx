@@ -7,7 +7,7 @@ export default function SistemaLEGO() {
     <section
       style={{
         background: `url(${legobg})`,
-        backgroundColor: '#fff',
+        backgroundColor: '#e8eef9',
         backgroundSize: '33px',
       }}
       className="w-full flex flex-col items-center monserrat-bold md:pt-10  pb-10"
