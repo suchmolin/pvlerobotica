@@ -11,7 +11,7 @@ export default function DiversionSection() {
     {
       id: '2-o-4-semanas-de-actividades',
       icon: imgdata1,
-      titulo: '2 O 4 SEMANAS DE ACTIVIDADES',
+      titulo: '2 SEMANAS DE ACTIVIDADES',
     },
     {
       id: '30-horas-de-diversion',
@@ -84,7 +84,7 @@ export default function DiversionSection() {
                   className="h-full w-auto"
                 />
               </div>
-              <p className="text-[#2d2d2d] text-sm lg:text-sm xl:text-xl text-center monserrat-bold leading-5">
+              <p className="text-[#2d2d2d] text-sm sm:text-xs lg:text-sm xl:text-lg text-center monserrat-bold leading-5 ">
                 {item.titulo}
               </p>
             </div>

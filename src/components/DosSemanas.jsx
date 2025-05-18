@@ -18,22 +18,22 @@ export default function DosSemanas() {
       fechaFin: 'AL 15 DE AGOSTO',
       color: '#007a03',
     },
-    // {
-    //   id: 'tercera-etapa',
-    //   etapa: '3',
-    //   etapa2: 'RA',
-    //   fechaInicio: '18 DE AGOSTO',
-    //   fechaFin: 'AL 29 DE AGOSTO',
-    //   color: '#dd1f89',
-    // },
-    // {
-    //   id: 'cuarta-etapa',
-    //   etapa: '4',
-    //   etapa2: 'TA',
-    //   fechaInicio: '01 DE SEPTIEMBRE',
-    //   fechaFin: 'AL 12 DE SEPTIEMBRE',
-    //   color: '#00aabc',
-    // },
+    {
+      id: 'tercera-etapa',
+      etapa: '3',
+      etapa2: 'RA',
+      fechaInicio: '18 DE AGOSTO',
+      fechaFin: 'AL 29 DE AGOSTO',
+      color: '#dd1f89',
+    },
+    {
+      id: 'cuarta-etapa',
+      etapa: '4',
+      etapa2: 'TA',
+      fechaInicio: '01 DE SEPTIEMBRE',
+      fechaFin: 'AL 12 DE SEPTIEMBRE',
+      color: '#00aabc',
+    },
   ]
   return (
     <section
