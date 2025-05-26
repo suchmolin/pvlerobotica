@@ -1,35 +1,41 @@
-import imgdata1 from '../assets/img/Imagen1.png'
-import imgdata2 from '../assets/img/ENGRANAJE.png'
-import imgdata3 from '../assets/img/EMPA.png'
-import imgdata4 from '../assets/img/CONVER.png'
-import imgdata5 from '../assets/img/MATE.png'
+import imgdata1 from '../assets/img/F1.png'
+import imgdata2 from '../assets/img/videojuego.png'
+import imgdata3 from '../assets/img/robot.png'
+import imgdata4 from '../assets/img/velero.png'
+import imgdata5 from '../assets/img/construccion.png'
+import imgdata6 from '../assets/img/construccion.png'
 
 export default function DifSectionDos() {
   const data = [
     {
-      id: 'metodologia-steam',
+      id: 'carrera-de-legos',
       icon: imgdata1,
-      titulo: 'METODOLOGÍA STEAM',
+      titulo: 'CARRERA DE LEGOS',
     },
     {
-      id: 'conocimientos-de-matematicas',
+      id: 'crea-un-videojuego',
       icon: imgdata2,
-      titulo: 'CONOCIMIENTOS DE MATEMÁTICAS',
+      titulo: 'CREA UN VIDEOJUEGO',
     },
     {
-      id: 'habilidades-socioemocionales',
+      id: 'robots-en-movimiento',
       icon: imgdata3,
-      titulo: 'HABILIDADES SOCIOEMOCIONALES',
+      titulo: 'ROBOTS EN MOVIMIENTO',
     },
     {
-      id: 'trabajo-en-equipo',
+      id: 'ensambla-un-velero',
       icon: imgdata4,
-      titulo: 'TRABAJO EN EQUIPO',
+      titulo: 'ENSAMBLA UN VELERO',
     },
     {
-      id: 'conocimientos-de-lectoescritura',
+      id: 'aterriza-el-helicortero',
       icon: imgdata5,
-      titulo: 'CONOCIMIENTOS EN LECTOESCRITURA',
+      titulo: 'ATERRIZA EL HELICORTERO',
+    },
+    {
+      id: 'defafio-de-la-torre',
+      icon: imgdata6,
+      titulo: 'DEFAFÍO DE LA TORRE',
     },
   ]
   return (

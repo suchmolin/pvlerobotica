@@ -2,6 +2,8 @@ import { MdPlayCircleOutline } from 'react-icons/md'
 import logovertical from '../assets/img/logoVertical.png'
 import spikeprime10 from '../assets/img/spikeprime10.png'
 import legobg from '../assets/img/LEGObg.png'
+import video from '../assets/img/PrimariaAlta.mp4'
+import poster from '../assets/img/PRIMARIAALTA.png'
 
 export default function PrimariaAltaSection() {
   return (
@@ -38,9 +40,12 @@ export default function PrimariaAltaSection() {
               </h3>
             </div>
             <div className="w-full flex flex-col gap-4 mb-5">
-              <div className="w-full md:w-10/12 aspect-video rounded-4xl flex items-center justify-center bg-[#696969]">
-                <MdPlayCircleOutline className="text-8xl text-[#bdc5d4]" />
-              </div>
+              <video
+                className="w-full md:w-10/12 aspect-video rounded-4xl flex items-center justify-center bg-[#696969]"
+                controls
+                src={video}
+                poster={poster}
+              ></video>
             </div>
             <h2 className="text-2xl lg:text-3xl xl:text-4xl text-[#dd1f89] text-center md:text-start mb-5 sm:mb-0">
               ¡Robots y mucha acción!

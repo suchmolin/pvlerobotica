@@ -2,6 +2,8 @@ import { MdPlayCircleOutline } from 'react-icons/md'
 import logovertical from '../assets/img/logoVertical.png'
 import mano from '../assets/img/mano.png'
 import legobg from '../assets/img/LEGObg.png'
+import video from '../assets/img/secundaria.mp4'
+import poster from '../assets/img/SECUNDARIA.png'
 
 export default function SecundariaSection() {
   return (
@@ -52,9 +54,12 @@ export default function SecundariaSection() {
               </h3>
             </div>
             <div className="w-full flex flex-col gap-4 mb-5 items-center md:items-start sm:-mt-10 md:mt-0">
-              <div className="w-10/12 aspect-video rounded-4xl flex items-center justify-center bg-[#696969]">
-                <MdPlayCircleOutline className="text-8xl text-[#bdc5d4]" />
-              </div>
+              <video
+                className="w-10/12 aspect-video rounded-4xl flex items-center justify-center bg-[#696969]"
+                controls
+                src={video}
+                poster={poster}
+              ></video>
             </div>
             <h2 className="text-2xl lg:text-3xl xl:text-5xl text-[#005aad] text-center md:text-start mb-20 md:mb-0">
               ¡Aquí se programa en otro <br /> nivel con Phyton!

@@ -2,6 +2,8 @@ import { MdPlayCircleOutline } from 'react-icons/md'
 import logovertical from '../assets/img/logoVertical.png'
 import spikeessential from '../assets/img/sintitutlo.png'
 import legobg from '../assets/img/LEGObg.png'
+import video from '../assets/img/preescolar.mp4'
+import poster from '../assets/img/PREESCOLAR.png'
 
 export default function PreescolarSection() {
   return (
@@ -28,9 +30,12 @@ export default function PreescolarSection() {
         <div className="flex flex-col-reverse md:flex-row items-center md:items-start md:justify-end md:gap-10 -mt-10 sm:-mt-20 md:mt-0">
           <div className="w-11/12 md:w-7/12 flex flex-col justify-center items-center md:items-start -mt-10 sm:-mt-20 md:mt-0">
             <div className="w-full flex flex-col items-center md:items-start gap-4 mb-5">
-              <div className="w-11/12 sm:w-10/12 aspect-video rounded-4xl flex items-center justify-center bg-[#696969]">
-                <MdPlayCircleOutline className="text-8xl text-[#bdc5d4]" />
-              </div>
+              <video
+                className="w-11/12 sm:w-10/12 aspect-video rounded-4xl flex items-center justify-center bg-[#696969]"
+                controls
+                src={video}
+                poster={poster}
+              ></video>
             </div>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl text-[#007a03] text-center md:text-start">
               ¡Diversión a lo grande <br /> con bloques de LEGOS!

@@ -38,7 +38,7 @@ export default function CincoPilares() {
     <section
       style={{
         background: `url(${legobg})`,
-        backgroundColor: '#fff',
+        backgroundColor: '#e8eef9',
         backgroundSize: '33px',
       }}
       className="w-full flex justify-center py-10 md:py-14 monserrat-bold "

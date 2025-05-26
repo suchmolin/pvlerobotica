@@ -2,6 +2,8 @@ import { MdPlayCircleOutline } from 'react-icons/md'
 import headerimg from '../assets/img/spike-essential.png'
 import legobg from '../assets/img/LEGObg.png'
 import logovertical from '../assets/img/logoVertical.png'
+import video from '../assets/img/Principal.mp4'
+import poster from '../assets/img/PRINCIPAL.png'
 
 export default function HeaderPV() {
   return (
@@ -33,9 +35,13 @@ export default function HeaderPV() {
             alt="spike essential"
             className="w-8/12 md:w-1/2 h-auto"
           />
-          <div className="w-11/12 sm:w-10/12 md:w-5/12 aspect-video rounded-4xl flex items-center justify-center bg-[#696969]">
-            <MdPlayCircleOutline className="text-8xl text-[#bdc5d4]" />
-          </div>
+
+          <video
+            className="w-11/12 sm:w-10/12 md:w-5/12 aspect-video rounded-4xl flex items-center justify-center bg-[#696969] overflow-hidden p-1"
+            controls
+            src={video}
+            poster={poster}
+          ></video>
         </div>
         {/*///SLOGAN//*/}
         <h3 className=" text-2xl sm:text-3xl md:text-4xl text-[#2d2d2d] text-center">

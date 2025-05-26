@@ -1,35 +1,41 @@
-import imgdata1 from '../assets/img/METOSTEAM.png'
-import imgdata2 from '../assets/img/CONMAT.png'
-import imgdata3 from '../assets/img/SOCIE.png'
-import imgdata4 from '../assets/img/TRAEQU.png'
-import imgdata5 from '../assets/img/LECTO.png'
+import imgdata1 from '../assets/img/BARCO.png'
+import imgdata2 from '../assets/img/CARITA.png'
+import imgdata3 from '../assets/img/LETRAS2.png'
+import imgdata4 from '../assets/img/TREN.png'
+import imgdata5 from '../assets/img/RULETA.png'
+import imgdata6 from '../assets/img/CIUDAD.png'
 
 export default function DifSection() {
   const data = [
     {
-      id: 'metodologia-steam',
+      id: 'navegando-con-legos',
       icon: imgdata1,
-      titulo: 'METODOLOGÍA STEAM',
+      titulo: 'NAVEGANDO CON LEGOS',
     },
     {
-      id: 'conocimientos-de-matematicas',
+      id: 'caritas-que-hablan',
       icon: imgdata2,
-      titulo: 'CONOCIMIENTOS DE MATEMÁTICAS',
+      titulo: 'CARITAS QUE HABLAN',
     },
     {
-      id: 'habilidades-socioemocionales',
+      id: 'palabras-magicas',
       icon: imgdata3,
-      titulo: 'HABILIDADES SOCIOEMOCIONALES',
+      titulo: 'PALABRAS MÁGICAS',
     },
     {
-      id: 'trabajo-en-equipo',
+      id: 'codificacion-con-colores',
       icon: imgdata4,
-      titulo: 'TRABAJO EN EQUIPO',
+      titulo: 'CODIFICANDO CON COLORES',
     },
     {
-      id: 'conocimientos-de-lectoescritura',
+      id: 'parque-de-aventuras',
       icon: imgdata5,
-      titulo: 'CONOCIMIENTOS EN LECTOESCRITURA',
+      titulo: 'PARQUE DE AVENTURAS',
+    },
+    {
+      id: 'mi-ciudad-feliz',
+      icon: imgdata6,
+      titulo: 'MI CIUDAD FELIZ',
     },
   ]
   return (

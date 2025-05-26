@@ -1,39 +1,45 @@
-import imgdata1 from '../assets/img/vwrwrgfwr.png'
-import imgdata2 from '../assets/img/LAPTOP.png'
-import imgdata3 from '../assets/img/PENSA.png'
-import imgdata4 from '../assets/img/CONFIANZA.png'
-import imgdata5 from '../assets/img/METAS.png'
+import imgdata1 from '../assets/img/escala.png'
+import imgdata2 from '../assets/img/reto.png'
+import imgdata3 from '../assets/img/eco.png'
+import imgdata4 from '../assets/img/avion.png'
+import imgdata5 from '../assets/img/ingeniero.png'
+import imgdata6 from '../assets/img/carro.png'
 
 export default function DifSectionTres() {
   const data = [
     {
-      id: 'python-basico',
+      id: 'construye-y-escala',
       icon: imgdata1,
-      titulo: 'PYTHON BASICO',
+      titulo: 'CONSTRUYE Y ESCALA',
     },
     {
-      id: 'logica-computacional',
+      id: 'reto-ingenioso',
       icon: imgdata2,
-      titulo: 'LÓGICA COMPUTACIONAL EN ACCIÓN',
+      titulo: 'RETO INGENIOSO',
     },
     {
-      id: 'desarrollo-del-pensamiento-critico',
+      id: 'eco-misiones',
       icon: imgdata3,
-      titulo: 'DESARROLLO DEL PENSAMIENTO CRÍTICO',
+      titulo: 'ECO MISIONES',
     },
     {
-      id: 'confianza-y-resiliencia',
+      id: 'listos-para-el-despegue',
       icon: imgdata4,
-      titulo: 'CONFIANZA Y RESILIENCIA',
+      titulo: 'LISTOS PARA EL DESPEGUE',
     },
     {
-      id: 'mejora-en-la-resolucion-de-problemas',
+      id: 'ingenieros-en-accion',
       icon: imgdata5,
-      titulo: 'MEJORA EN LA RESOLUCIÓN DE PROBLEMAS',
+      titulo: 'INGENIEROS EN ACCIÓN',
+    },
+    {
+      id: 'super-vehiculos',
+      icon: imgdata6,
+      titulo: 'SUPER VEHÍCULOS',
     },
   ]
   return (
-    <section className="w-full flex justify-center bg-[#007a03] py-10">
+    <section className="w-full flex justify-center bg-[#00aabc] py-10">
       <div className="w-[370px] sm:w-[630px] md:w-[760px] lg:w-[1030px] xl:w-[1250px] flex justify-center ">
         <div className="w-11/12 flex justify-center md:justify-between  flex-wrap md:flex-nowrap gap-y-4 gap-x-7">
           {data.map((item) => (

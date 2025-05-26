@@ -23,8 +23,8 @@ function App() {
       <HeaderPV />
       <DiversionSection />
       <DosSemanas />
-      <SistemaLEGO />
       <CincoPilares />
+      <SistemaLEGO />
       <PreescolarSection />
       <DifSection />
       <PrimariaBajaSection />

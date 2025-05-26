@@ -1,39 +1,45 @@
-import imgdata1 from '../assets/img/rqwynryn.png'
-import imgdata2 from '../assets/img/ENGRANAJE.png'
-import imgdata3 from '../assets/img/LAPTOP.png'
-import imgdata4 from '../assets/img/LUPA.png'
-import imgdata5 from '../assets/img/MATE.png'
+import imgdata1 from '../assets/img/carrera.png'
+import imgdata2 from '../assets/img/brazorobotico.png'
+import imgdata3 from '../assets/img/lentes.png'
+import imgdata4 from '../assets/img/obstaculos.png'
+import imgdata5 from '../assets/img/giros.png'
+import imgdata6 from '../assets/img/ascensor.png'
 
 export default function DifSectionCuatro() {
   const data = [
     {
-      id: 'python-basico',
+      id: 'desafio-de-velocidad',
       icon: imgdata1,
-      titulo: 'PROGRAMACIÓN EN PYTHON',
+      titulo: 'DESAFÍO DE VELOCIDAD',
     },
     {
-      id: 'logica-computacional',
+      id: 'brazo-robotico',
       icon: imgdata2,
-      titulo: 'RESOLUCIÓN DE PROBLEMAS',
+      titulo: 'BRAZO ROBÓTICO',
     },
     {
-      id: 'desarrollo-del-pensamiento-critico',
+      id: 'realidad-aumentada',
       icon: imgdata3,
-      titulo: 'LÓGICA COMPUTACIONAL EN ACCIÓN',
+      titulo: 'REALIDAD AUMENTADA',
     },
     {
-      id: 'confianza-y-resiliencia',
+      id: 'esquiva-y-avanza',
       icon: imgdata4,
-      titulo: 'ANÁLISIS DE DATOS',
+      titulo: 'ESQUIVA Y AVANZA',
     },
     {
-      id: 'mejora-en-la-resolucion-de-problemas',
+      id: 'giros-perfectos',
       icon: imgdata5,
-      titulo: 'CONOCIMIENTOS EN MATEMÁTICAS Y LAS CIENCIAS',
+      titulo: 'GIROS PERFECTOS',
+    },
+    {
+      id: 'ascensor-automatico',
+      icon: imgdata6,
+      titulo: 'ASCENSOR AUTOMÁTICO',
     },
   ]
   return (
-    <section className="w-full flex justify-center bg-[#00aabc] py-10">
+    <section className="w-full flex justify-center bg-[#007a03] py-10">
       <div className="w-[370px] sm:w-[630px] md:w-[760px] lg:w-[1030px] xl:w-[1250px] flex justify-center ">
         <div className="w-11/12 flex justify-center md:justify-between  flex-wrap md:flex-nowrap gap-y-4 gap-x-7">
           {data.map((item) => (
