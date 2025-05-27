@@ -33,6 +33,7 @@ export default function DosSemanas() {
   ]
   return (
     <section
+      id="fechas"
       style={{
         background: `url(${legobg})`,
         backgroundColor: '#fff',

@@ -41,6 +41,7 @@ export default function DiversionSection() {
   ]
   return (
     <section
+      id="quienessomos"
       style={{
         background: `url(${legobg})`,
         backgroundColor: '#e8eef9',

@@ -23,9 +23,12 @@ export default function InscribeloAhora() {
           sus vacaciones con esta
           <span className="text-[#d21080]"> experiencia tecnológica</span>
         </h2>
-        <button className="py-2 px-6 bg-[#f7b503] rounded-md text-2xl sm:text-3xl md:text-4xl text-white mt-10">
+        <a
+          href="https://wa.me/584122030567"
+          className="py-2 px-6 bg-[#f7b503] rounded-md text-2xl sm:text-3xl md:text-4xl text-white mt-10"
+        >
           ¡INSCRIBELO AHORA!
-        </button>
+        </a>
       </div>
     </section>
   )

@@ -39,9 +39,12 @@ export default function SecundariaSection() {
                   className="object-contain object-right"
                 />
               </div>
-              <button className="bg-[#dd1f89] py-2 lg:py-4 px-5 lg:px-10 text-xl lg:text-2xl xl:text-3xl text-white text-center rounded-4xl  md:-ml-20 -mt-10 hidden md:block">
+              <a
+                href="https://wa.me/584122030567"
+                className="bg-[#dd1f89] py-2 lg:py-4 px-5 lg:px-10 text-xl lg:text-2xl xl:text-3xl text-white text-center rounded-4xl  md:-ml-20 -mt-10 hidden md:block z-10"
+              >
                 ¡INSCRÍBETE AHORA!
-              </button>
+              </a>
             </div>
           </div>
           <div className="w-full md:w-6/12 flex flex-col justify-center">
@@ -67,9 +70,12 @@ export default function SecundariaSection() {
           </div>
         </div>
         <div className="w-full flex justify-center">
-          <button className="bg-[#dd1f89] py-2 lg:py-4 px-5 lg:px-10 text-xl lg:text-2xl xl:text-3xl text-white text-center rounded-4xl  md:-ml-20 -mt-10 block md:hidden">
+          <a
+            href="https://wa.me/584122030567"
+            className="bg-[#dd1f89] py-2 lg:py-4 px-5 lg:px-10 text-xl lg:text-2xl xl:text-3xl text-white text-center rounded-4xl  md:-ml-20 -mt-10 block md:hidden z-10"
+          >
             ¡INSCRÍBETE AHORA!
-          </button>
+          </a>
         </div>
       </div>
     </section>

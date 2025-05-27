@@ -8,6 +8,7 @@ import poster from '../assets/img/PREESCOLAR.png'
 export default function PreescolarSection() {
   return (
     <section
+      id="etapas"
       style={{
         background: `url(${legobg})`,
         backgroundColor: '#e8eef9',
@@ -40,9 +41,12 @@ export default function PreescolarSection() {
             <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl text-[#007a03] text-center md:text-start">
               ¡Diversión a lo grande <br /> con bloques de LEGOS!
             </h2>
-            <button className="block md:hidden bg-[#f7b503] py-2 lg:py-4 px-5 lg:px-10 text-xl lg:text-3xl text-white text-center rounded-4xl mt-10 md:mt-60 lg:mt-72 xl:mt-96 ">
+            <a
+              href="https://wa.me/584122030567"
+              className="block md:hidden bg-[#f7b503] py-2 lg:py-4 px-5 lg:px-10 text-xl lg:text-3xl text-white text-center rounded-4xl mt-10 md:mt-60 lg:mt-72 xl:mt-96 "
+            >
               ¡INSCRÍBETE AHORA!
-            </button>
+            </a>
           </div>
           <div className="md:w-4/12 flex items-center justify-center">
             <div className="w-full flex flex-col items-center justify-center">
@@ -53,9 +57,12 @@ export default function PreescolarSection() {
                   className=" md:absolute right-0 top-32 w-11/12 md:w-5/12 h-auto object-contain object-right"
                 />
               </div>
-              <button className="hidden md:block bg-[#f7b503] py-2 lg:py-4 px-5 lg:px-10 text-xl lg:text-3xl text-white text-center rounded-4xl mt-60 lg:mt-72 xl:mt-96 -ml-20">
+              <a
+                href="https://wa.me/584122030567"
+                className="absolute hidden md:block bg-[#f7b503] py-2 lg:py-4 px-5 lg:px-10 text-xl lg:text-3xl text-white text-center rounded-4xl bottom-20 -ml-20"
+              >
                 ¡INSCRÍBETE AHORA!
-              </button>
+              </a>
             </div>
           </div>
         </div>

@@ -8,27 +8,25 @@ export default function Navbar() {
           <img src={logopng} alt="Logo" className="object-contain" />
         </div>
       </div>
-      <ul className="h-full flex gap-5 sm:gap-4 lg:gap-7 items-center text-xs sm:text-md lg:text-xl monserrat-bold sm:pt-18 md:pt-0 ">
+      <ul className="h-full flex gap-5 sm:gap-4 lg:gap-7 items-center text-xs sm:text-md lg:text-xl monserrat-bold sm:pt-18 md:pt-0 z-20">
         <li className="hover:scale-[103%] transition-transform duration-300 text-center">
-          <a className="" href="#home">
-            ¿Quienes somos?
-          </a>
+          <a href="#quienessomos">¿Quienes somos?</a>
         </li>
         <li className="hidden sm:block">|</li>
         <li className="hover:scale-[103%] transition-transform duration-300">
-          <a className="" href="#about">
+          <a className="#" href="#etapas">
             Etapas
           </a>
         </li>
         <li className="hidden sm:block">|</li>
         <li className="hover:scale-[103%] transition-transform duration-300">
-          <a className="" href="#services">
+          <a className="#" href="#testimonios">
             Testimonios
           </a>
         </li>
         <li className="hidden sm:block">|</li>
         <li className="hover:scale-[103%] transition-transform duration-300">
-          <a className="" href="#contact">
+          <a className="" href="#fechas">
             Fechas
           </a>
         </li>

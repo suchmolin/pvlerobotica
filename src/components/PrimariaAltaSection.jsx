@@ -60,16 +60,22 @@ export default function PrimariaAltaSection() {
                   className="object-contain object-right"
                 />
               </div>
-              <button className="bg-[#00aabc] py-2 lg:py-4 px-5 lg:px-10 text-xl lg:text-2xl xl:text-3xl text-white text-center rounded-4xl  -ml-20 hidden md:block">
+              <a
+                href="https://wa.me/584122030567"
+                className="bg-[#00aabc] py-2 lg:py-4 px-5 lg:px-10 text-xl lg:text-2xl xl:text-3xl text-white text-center rounded-4xl  -ml-20 hidden md:block"
+              >
                 ¡INSCRÍBETE AHORA!
-              </button>
+              </a>
             </div>
           </div>
         </div>
         <div className="w-full flex justify-center">
-          <button className="bg-[#00aabc] py-2 lg:py-4 px-5 lg:px-10 text-xl lg:text-2xl xl:text-3xl text-white text-center rounded-4xl  block md:hidden ">
+          <a
+            href="https://wa.me/584122030567"
+            className="bg-[#00aabc] py-2 lg:py-4 px-5 lg:px-10 text-xl lg:text-2xl xl:text-3xl text-white text-center rounded-4xl  block md:hidden "
+          >
             ¡INSCRÍBETE AHORA!
-          </button>
+          </a>
         </div>
       </div>
     </section>

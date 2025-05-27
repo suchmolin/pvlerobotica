@@ -15,6 +15,7 @@ import PrimariaBajaSection from './components/PrimariaBajaSection'
 import SecundariaSection from './components/SecundariaSection'
 import SistemaLEGO from './components/SistemaLEGO'
 import Testimonios from './components/Testimonios'
+import WhatsappButton from './components/WhatsappButton'
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       <DifSectionCuatro />
       <Testimonios />
       <InscribeloAhora />
+      <WhatsappButton />
     </main>
   )
 }

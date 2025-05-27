@@ -3,10 +3,10 @@ import { data } from '../data/opinionesProfesores'
 import legobg from '../assets/img/LEGObg.png'
 import { useState } from 'react'
 import { FaPlay } from 'react-icons/fa'
-import testimonial1 from '../assets/img/testimonial1.mov'
-import testimonial2 from '../assets/img/testimonial2.mov'
-import testimonial3 from '../assets/img/testimonial3.mov'
-import testimonial4 from '../assets/img/testimonial4.mov'
+import testimonial1 from '../assets/img/testimonial1.mp4'
+import testimonial2 from '../assets/img/testimonial2.mp4'
+import testimonial3 from '../assets/img/testimonial3.mp4'
+import testimonial4 from '../assets/img/testimonial4.mp4'
 import testimonialPoster1 from '../assets/img/postertestinonio1.png'
 import testimonialPoster2 from '../assets/img/postertestinonio2.png'
 import testimonialPoster3 from '../assets/img/postertestinonio3.png'
@@ -23,6 +23,7 @@ export default function Testimonios() {
   const [vidSelected, setVidSelected] = useState(data[0].id)
   return (
     <section
+      id="testimonios"
       style={{
         background: `url(${legobg})`,
         backgroundColor: '#e8eef9',
