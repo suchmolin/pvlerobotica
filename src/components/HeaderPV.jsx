@@ -1,7 +1,6 @@
 import { MdPlayCircleOutline } from 'react-icons/md'
 import headerimg from '../assets/img/spike-essential.png'
 import legobg from '../assets/img/LEGObg.png'
-import logovertical from '../assets/img/logoVertical.png'
 import video from '../assets/img/Principal.mp4'
 import poster from '../assets/img/PRINCIPAL.png'
 
@@ -13,13 +12,8 @@ export default function HeaderPV() {
         backgroundColor: '#fff',
         backgroundSize: '33px',
       }}
-      className="w-full flex justify-center pt-[130px] md:pt-[100px] pb-12 relative"
+      className="w-full flex justify-center pt-[] sm:pt-[150px] md:pt-[140px] pb-12 relative"
     >
-      <img
-        src={logovertical}
-        alt="logo lerobotica"
-        className="absolute top-20 xl:top-12 right-[2%] w-[90px] h-auto bg-white rounded-b-[35px] hidden lg:block"
-      />
       <div className="w-[370px] sm:w-[630px] md:w-[760px] lg:w-[1030px] xl:w-[1250px] monserrat-bold">
         {/*///TITULO//*/}
         <h1 className="text-center text-4xl sm:text-5xl md:text-7xl text-[#f7b503] ">

@@ -3,7 +3,7 @@ import imgdata2 from '../assets/img/DIVIERTETE.png'
 import imgdata3 from '../assets/img/CONSTRUYE.png'
 import imgdata4 from '../assets/img/Sin título-6.png'
 import imgdata5 from '../assets/img/COMPETIR.png'
-import logolero from '../assets/img/logo.png'
+import logolero from '../assets/img/logoVertical.png'
 import legobg from '../assets/img/LEGObg.png'
 
 export default function CincoPilares() {
@@ -41,10 +41,10 @@ export default function CincoPilares() {
         backgroundColor: '#e8eef9',
         backgroundSize: '33px',
       }}
-      className="w-full flex justify-center py-10 md:py-14 monserrat-bold "
+      className="w-full flex justify-center pt-10 md:pt-14 pb-10 md:pb-4 monserrat-bold "
     >
-      <div className="w-[370px] sm:w-[630px] md:w-[760px] lg:w-[1030px] xl:w-[1250px] flex flex-col md:flex-row justify-center items-center">
-        <div className="w-10/12 md:w-4/12 lg:pr-20 lg:pl-10 xl:pl-0 flex flex-col items-center md:items-start text-center lg:text-start mb-10 md:mb-0">
+      <div className="w-[370px] sm:w-[630px] md:w-[760px] lg:w-[1030px] xl:w-[1250px] flex flex-col md:flex-row justify-center items-center lg:items-start">
+        <div className="w-10/12 md:w-4/12 lg:pr-20 lg:pl-10 xl:pl-0 flex flex-col items-center md:items-start text-center lg:text-start mb-10 md:mb-0 mt-0 lg:mt-10">
           <h3 className="text-base xl:text-lg text-nowrap">
             UNA EXPERIENCIA TECNOLÓGICA <br /> Y DIVERTIDA BASADA EN
           </h3>
@@ -53,12 +53,12 @@ export default function CincoPilares() {
             <span className="bg-[#d21080] px-5 py-2 w-fit">FUNDAMENTALES</span>
           </h2>
         </div>
-        <div className="w-11/12 md:w-8/12 flex flex-col gap-3 sm:gap-6 items-center">
+        <div className="w-11/12 md:w-8/12 flex flex-col gap-3 sm:gap-2 items-center">
           <div className="w-full flex justify-center sm:gap-y-5 flex-wrap">
             {data.map((item) => (
               <div
                 key={item.id}
-                className="w-[220px] sm:w-[130px] lg:w-[130px] xl:w-[160px] flex flex-col sm:gap-3"
+                className="w-[150px] sm:w-[130px] lg:w-[130px] xl:w-[160px] flex flex-col sm:gap-3"
               >
                 <div className="w-full px-5">
                   <img
@@ -76,7 +76,7 @@ export default function CincoPilares() {
           <img
             src={logolero}
             alt="logo lerobotica"
-            className="w-[400px] h-auto"
+            className="w-[200px] h-auto"
           />
         </div>
       </div>

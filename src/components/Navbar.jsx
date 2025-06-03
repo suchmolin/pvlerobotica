@@ -1,14 +1,14 @@
-import logopng from '../assets/img/logo.png'
+import logopng from '../assets/img/logoVertical.png'
 
 export default function Navbar() {
   return (
-    <nav className="w-full sm:h-[100px] absolute flex flex-col sm:flex-row monserrat justify-end xl:justify-center items-center sm:pr-10 lg:pr-20 xl:pr-0 z-10">
-      <div className="relative sm:absolute top-0 w-full sm:h-full flex justify-center sm:justify-start items-center pl-10 md:pl-20">
-        <div className="relative w-[170px] md:w-[200px] lg:w-[270px] flex items-center">
+    <nav className="w-full h-[100px] absolute flex flex-col sm:flex-row monserrat justify-center items-center z-10">
+      <div className="lg:absolute lg:top-20 w-full sm:h-full flex justify-center lg:justify-start items-center xl:pl-20">
+        <div className="relative w-[150px] xl:w-[220px] flex items-center mt-12">
           <img src={logopng} alt="Logo" className="object-contain" />
         </div>
       </div>
-      <ul className="h-full flex gap-5 sm:gap-4 lg:gap-7 items-center text-xs sm:text-md lg:text-xl monserrat-bold sm:pt-18 md:pt-0 z-20">
+      {/* <ul className="h-full flex gap-5 sm:gap-4 lg:gap-7 items-center text-xs sm:text-md lg:text-xl monserrat-bold sm:pt-18 md:pt-0 z-20">
         <li className="hover:scale-[103%] transition-transform duration-300 text-center">
           <a href="#quienessomos">¿Quienes somos?</a>
         </li>
@@ -30,7 +30,7 @@ export default function Navbar() {
             Fechas
           </a>
         </li>
-      </ul>
+      </ul> */}
     </nav>
   )
 }
