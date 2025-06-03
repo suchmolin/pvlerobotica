@@ -2,11 +2,12 @@ import imgdata1 from '../assets/img/F1.png'
 import imgdata2 from '../assets/img/videojuego.png'
 import imgdata3 from '../assets/img/robot.png'
 import imgdata4 from '../assets/img/velero.png'
-import imgdata5 from '../assets/img/construccion.png'
+import heli from '../assets/img/heli.png'
 import imgdata6 from '../assets/img/construccion.png'
 import maquina from '../assets/img/maquina.png'
 import rampa from '../assets/img/rampa.png'
 import copa from '../assets/img/copa.png'
+import circulos from '../assets/img/circulos.png'
 
 export default function DifSectionDos() {
   const data = [
@@ -32,7 +33,7 @@ export default function DifSectionDos() {
     },
     {
       id: 'aterriza-el-helicortero',
-      icon: imgdata5,
+      icon: heli,
       titulo: 'ATERRIZA UN HELICORTERO',
     },
     {
@@ -42,7 +43,7 @@ export default function DifSectionDos() {
     },
     {
       id: 'jugando-con-movimiento',
-      icon: imgdata6,
+      icon: circulos,
       titulo: 'JUGANDO CON MOVIMIENTO',
     },
     {

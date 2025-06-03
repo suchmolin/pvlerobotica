@@ -7,6 +7,7 @@ import imgdata6 from '../assets/img/CIUDAD.png'
 import SAFARI from '../assets/img/SAFARI.png'
 import CARRO2 from '../assets/img/CARRO2.png'
 import piezasmecanicas from '../assets/img/piezasmecanicas.png'
+import castillo from '../assets/img/castillo.png'
 
 export default function DifSection() {
   const data = [
@@ -42,7 +43,7 @@ export default function DifSection() {
     },
     {
       id: 'el-castillo-mas-alto',
-      icon: imgdata2,
+      icon: castillo,
       titulo: 'EL CASTILLO MÁS ALTO',
     },
     {
