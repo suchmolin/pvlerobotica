@@ -32,9 +32,9 @@ export default function DifSectionDos() {
       titulo: 'ENSAMBLA UN VELERO',
     },
     {
-      id: 'aterriza-el-helicortero',
+      id: 'aterriza-el-helicoptero',
       icon: heli,
-      titulo: 'ATERRIZA UN HELICORTERO',
+      titulo: 'ATERRIZA UN HELICÓPTERO',
     },
     {
       id: 'defafio-de-la-torre',
@@ -49,7 +49,7 @@ export default function DifSectionDos() {
     {
       id: 'maquinas-divertidas',
       icon: maquina,
-      titulo: 'MQUINAS DIVERTIDAS',
+      titulo: 'MÁQUINAS DIVERTIDAS',
     },
     {
       id: 'reto-de-rampas',

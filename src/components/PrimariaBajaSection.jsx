@@ -65,7 +65,7 @@ export default function PrimariaBajaSection() {
             ></video>
           </div>
           <h2 className="text-lg sm:text-2xl lg:text-3xl xl:text-4xl text-[#005aad] text-center md:text-start mb-5 md:mb-0">
-            ¡Crea robots y programarlos <br /> nunca fue tan divertido!
+            ¡Crear robots y programarlos <br /> nunca fue tan divertido!
           </h2>
         </div>
         <a

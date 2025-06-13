@@ -54,7 +54,7 @@ export default function DifSection() {
     {
       id: 'super-vehiculos',
       icon: CARRO2,
-      titulo: 'SUPER VEHICULOS EN LA PISTA',
+      titulo: 'SUPER VEHÍCULOS EN LA PISTA',
     },
     {
       id: 'piezas-mecanicas',

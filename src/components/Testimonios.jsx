@@ -79,7 +79,7 @@ export default function Testimonios() {
                   <img
                     src={posters[i]}
                     alt="item.id"
-                    className="blur-[2px] group-hover:blur-0 transition-all duration-300 object-cover object-top rounded-2xl"
+                    className="group-hover:blur-0 transition-all duration-300 object-cover object-top rounded-2xl"
                   />
                   <FaPlay className="text-3xl sm:text-4xl opacity-90 text-white group-hover:opacity-20 transition-all duration-300" />
                 </button>

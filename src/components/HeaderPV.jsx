@@ -12,7 +12,7 @@ export default function HeaderPV() {
         backgroundColor: '#fff',
         backgroundSize: '33px',
       }}
-      className="w-full flex justify-center pt-[] sm:pt-[150px] md:pt-[140px] pb-12 relative"
+      className="w-full flex justify-center pt-[150px] sm:pt-[150px] md:pt-[140px] pb-12 relative"
     >
       <div className="w-[370px] sm:w-[630px] md:w-[760px] lg:w-[1030px] xl:w-[1250px] monserrat-bold">
         {/*///TITULO//*/}
@@ -20,7 +20,7 @@ export default function HeaderPV() {
           PLAN <span className="text-[#d21080]">VACACIONAL</span>
         </h1>
         <h2 className="text-center text-2xl sm:text-4xl text-[#00aabc]">
-          CARACAS Y PUERTO ORDAZ
+          CARACAS
         </h2>
         {/*///IMAGEN Y VIDEO//*/}
         <div className="w-full flex flex-col md:flex-row gap-0 md:gap-20 items-center justify-center mb-5">

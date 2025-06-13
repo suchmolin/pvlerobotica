@@ -39,12 +39,12 @@ export default function DifSectionCuatro() {
     {
       id: 'SUPER-VEHICULO',
       icon: camion,
-      titulo: 'SUPER VEHICULO',
+      titulo: 'SUPER VEHÍCULO',
     },
     {
       id: 'procesa-pistas-cn-codigo',
       icon: codigo,
-      titulo: 'PROCESA PISTAS CON CODIGOS',
+      titulo: 'PROCESA PISTAS CON CÓDIGOS',
     },
     {
       id: 'robot-en-el-gym',
@@ -54,7 +54,7 @@ export default function DifSectionCuatro() {
     {
       id: 'robot-detective',
       icon: detective,
-      titulo: 'robot-detective',
+      titulo: 'ROBOT DETECTIVE',
     },
     {
       id: 'ascensor-automatico',
