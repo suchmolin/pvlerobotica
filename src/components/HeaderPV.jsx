@@ -20,7 +20,7 @@ export default function HeaderPV() {
           PLAN <span className="text-[#d21080]">VACACIONAL</span>
         </h1>
         <h2 className="text-center text-2xl sm:text-4xl text-[#00aabc]">
-          CARACAS
+          EN CARACAS
         </h2>
         {/*///IMAGEN Y VIDEO//*/}
         <div className="w-full flex flex-col md:flex-row gap-0 md:gap-20 items-center justify-center mb-5">

@@ -2,7 +2,7 @@ import { MdPlayCircleOutline } from 'react-icons/md'
 import logovertical from '../assets/img/logoVertical.png'
 import spikeessential from '../assets/img/sintitutlo.png'
 import legobg from '../assets/img/LEGObg.png'
-import video from '../assets/img/preescolar.mp4'
+import video from '../assets/img/Preescolar.mp4'
 import poster from '../assets/img/PREESCOLAR.png'
 
 export default function PreescolarSection() {
