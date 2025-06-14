@@ -2,7 +2,7 @@ import { MdPlayCircleOutline } from 'react-icons/md'
 import logovertical from '../assets/img/logoVertical.png'
 import mano from '../assets/img/mano.png'
 import legobg from '../assets/img/LEGObg.png'
-import video from '../assets/img/secundaria.mp4'
+import video from '../assets/img/Secundaria.mp4'
 import poster from '../assets/img/SECUNDARIA.png'
 
 export default function SecundariaSection() {
