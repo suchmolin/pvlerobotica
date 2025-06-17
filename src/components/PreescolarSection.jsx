@@ -42,7 +42,7 @@ export default function PreescolarSection() {
               ¡Diversión a lo grande <br /> con bloques de LEGOS!
             </h2>
             <a
-              href="https://wa.me/584122030567"
+              href="https://wa.me/584125652213"
               className="block md:hidden bg-[#f7b503] py-2 lg:py-4 px-5 lg:px-10 text-xl lg:text-3xl text-white text-center rounded-4xl mt-10 md:mt-60 lg:mt-72 xl:mt-96 "
             >
               ¡INSCRÍBETE AHORA!
@@ -58,7 +58,7 @@ export default function PreescolarSection() {
                 />
               </div>
               <a
-                href="https://wa.me/584122030567"
+                href="https://wa.me/584125652213"
                 className="absolute hidden md:block bg-[#f7b503] py-2 lg:py-4 px-5 lg:px-10 text-xl lg:text-3xl text-white text-center rounded-4xl bottom-20 -ml-20"
               >
                 ¡INSCRÍBETE AHORA!

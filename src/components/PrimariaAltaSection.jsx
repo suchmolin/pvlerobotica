@@ -61,7 +61,7 @@ export default function PrimariaAltaSection() {
                 />
               </div>
               <a
-                href="https://wa.me/584122030567"
+                href="https://wa.me/584125652213"
                 className="bg-[#00aabc] py-2 lg:py-4 px-5 lg:px-10 text-xl lg:text-2xl xl:text-3xl text-white text-center rounded-4xl  -ml-20 hidden md:block"
               >
                 ¡INSCRÍBETE AHORA!
@@ -71,7 +71,7 @@ export default function PrimariaAltaSection() {
         </div>
         <div className="w-full flex justify-center">
           <a
-            href="https://wa.me/584122030567"
+            href="https://wa.me/584125652213"
             className="bg-[#00aabc] py-2 lg:py-4 px-5 lg:px-10 text-xl lg:text-2xl xl:text-3xl text-white text-center rounded-4xl  block md:hidden "
           >
             ¡INSCRÍBETE AHORA!

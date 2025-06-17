@@ -24,7 +24,7 @@ export default function InscribeloAhora() {
           <span className="text-[#d21080]"> experiencia tecnológica</span>
         </h2>
         <a
-          href="https://wa.me/584122030567"
+          href="https://wa.me/584125652213"
           className="py-2 px-6 bg-[#f7b503] rounded-md text-2xl sm:text-3xl md:text-4xl text-white mt-10"
         >
           ¡INSCRIBELO AHORA!
